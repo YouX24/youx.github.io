@@ -1,10 +1,20 @@
-import './App.css'
+import Introduction from './components/Intro'
+import Education from './components/Education'
+import Courses from './components/Courses'
+import Projects from './components/Projects'
 
 function App() {
 
   return (
     <>
-      <h1 className="bg-red-500">Hello World</h1>
+      <Introduction/>
+      <div className="min-h-screen bg-slate-500	">
+        <Education/>
+        <Courses/>
+      </div>
+      <div className="min-h-screen">
+        <Projects/>
+      </div>
     </>
   )
 }
