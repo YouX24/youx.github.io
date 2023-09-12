@@ -1,10 +1,10 @@
 const Courses = () => {
 
     return (
-        <div>
-            <p>Relevant Coursework:</p>
-            <p>Computer Science</p>
-            <ul>
+        <div className="flex flex-col flex-start">
+            <p className="my-6 font-bold">Relevant Coursework:</p>
+            <p className="my-3">Computer Science</p>
+            <ul className="list-[circle] list-inside pl-4">
                 <li>Advanced Programming and Data Structures (CS 245)</li>
                 <li>Computer Systems (CS 252)</li>
                 <li>Database Systems (CS 260)</li>
@@ -19,8 +19,8 @@ const Courses = () => {
                 <li>Operating Systems (CS 452)</li>
                 <li>Software Engineering II (CS 485)</li>
             </ul>
-            <p>Information Systems</p>
-            <ul>
+            <p className="my-3">Information Systems</p>
+            <ul className="list-[circle] list-[circle] list-inside pl-4">
                 <li>Information Systems in Business (IS 240)</li>
                 <li>Fundamentals of Business Programming (IS 304)</li>
                 <li>Introduction to Business Analytics (IS 307)</li>
