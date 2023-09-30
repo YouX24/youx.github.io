@@ -1,7 +1,7 @@
 const Courses = () => {
 
     return (
-        <div className="flex flex-col flex-start">
+        <div className="flex flex-col flex-start text-white">
             <p className="my-6 font-bold">Relevant Coursework:</p>
             <p className="my-3">Computer Science</p>
             <ul className="list-[circle] list-inside pl-4">
