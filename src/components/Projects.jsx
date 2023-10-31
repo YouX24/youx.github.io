@@ -9,13 +9,13 @@ import Card from "../components/Card"
 
 const Projects = () => {
 
-    const chowtimeDesc = ""
-    const wordleCloneDesc = ""
-    const tldrNewsletterDesc = ""
-    const sortAlgoDesc = ""
-    const steadyAidDesc = ""
-    const smartCityDesc = ""
-    const portfolio1Desc = ""
+    const chowtimeDesc = "A user-friendly restaurant decision-making app that lets you create and share voting links for restaurant choices, making group dining decisions a breeze."
+    const wordleCloneDesc = "An engaging word puzzle game that mirrors the beloved Wordle game, challenging players to guess a hidden word with limited attempts in a fun and addictive way."
+    const tldrNewsletterDesc = "A handy tool that automatically extracts and converts the TLDR Newsletter from your Gmail into an accessible audio format, allowing you to conveniently listen the newsletter content on the go."
+    const sortAlgoDesc = "An interactive tool that lets users explore the workings of five popular sorting algorithms through visual animations."
+    const steadyAidDesc = "A collaborative platform uniting nonprofit organizations and individuals with a shared mission, for the purpose of donating and sharing goods."
+    const smartCityDesc = "A guide to Eau Claire, offering visitors and residents a one-stop app for discovering city landmarks, staying updated on local news, and seamlessly connecting with job opportunities in the area."
+    const portfolio1Desc = "Version 1 of my portfolio website, showcasing my work and achievements, providing a digital space for me to share my skills and accomplishments with others."
 
     const chowtimeTech = "React, Node/Express, Tailwind, Supabase"
     const wordleCloneTech = "React, Tailwind"
