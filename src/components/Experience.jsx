@@ -1,4 +1,3 @@
-// import ExperienceCard from "./ExperienceCard"
 import optumLogo from '../assets/optum-logo.svg'
 import uwecLogo from '../assets/uwec-logo.png'
 import { VerticalTimeline, VerticalTimelineElement } from "react-vertical-timeline-component"
@@ -10,12 +9,11 @@ const Experience = () => {
             <div className="flex items-center flex-col">
                 <h2 className="text-4xl mb-10 text-white">EXPERIENCE</h2>
                 <div className="flex justify-center items-center">
-                    {/* <ExperienceCard/> */}
                     <VerticalTimeline>
                         <VerticalTimelineElement
                             className="vertical-timeline-element--work"
-                            contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-                            contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
+                            contentStyle={{ background: '#DAAD86', color: '#fff' }}
+                            contentArrowStyle={{ borderRight: '7px solid  #DAAD86' }}
                             date="June 2023 - August 2023"
                             iconStyle={{ background: '#fff', color: '#fff' }}
                             icon={
@@ -34,8 +32,8 @@ const Experience = () => {
                         </VerticalTimelineElement>
                         <VerticalTimelineElement
                             className="vertical-timeline-element--work"
-                            contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-                            contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
+                            contentStyle={{ background: '#DAAD86', color: '#fff' }}
+                            contentArrowStyle={{ borderRight: '7px solid  #DAAD86' }}
                             date="November 2020 - March 2021"
                             iconStyle={{ background: '#fff', color: '#fff' }}
                             icon={

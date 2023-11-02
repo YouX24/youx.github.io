@@ -11,6 +11,20 @@ const Card = (props) => {
                 <br/>
                 <i className="sm:text-base text-sm">{props.projectTechstack}</i>
                 </p>
+                <br/>
+                <div className="flex gap-5">
+                    {props.projectLink != undefined &&
+                        <a href={props.projectLink} target="_blank" rel="noopener noreferrer" className="text-2xl">
+                            <button><i className="fa-solid fa-window-maximize"></i></button>
+                        </a>
+                    }
+                    {
+                        props.githubLink != undefined &&
+                        <a href={props.githubLink} target="_blank" rel="noopener noreferrer" className="text-2xl">
+                            <button><i className="fa-brands fa-github"></i></button>
+                        </a>
+                    }
+                </div>
             </div>
         </div>
     )
