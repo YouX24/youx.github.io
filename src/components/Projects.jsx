@@ -26,7 +26,7 @@ const Projects = () => {
     const portfolio1Tech = "React"
 
     return (
-        <div className="flex justify-center items-center min-h-screen p-[50px]">
+        <div className="flex justify-center items-center min-h-screen px-6 py-12 sm:px-12">
             <div className="flex justify-center items-center flex-col">
                 <h2 className="text-4xl mb-10">PROJECTS</h2>
                 <div className="flex justify-center items-center flex-wrap">
