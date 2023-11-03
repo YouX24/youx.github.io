@@ -5,7 +5,7 @@ import 'react-vertical-timeline-component/style.min.css';
 
 const Experience = () => {
     return (
-        <div className="flex justify-center min-h-screen px-6 py-12 sm:px-12 bg-slate-500">
+        <div className="flex justify-center min-h-screen px-6 py-12 sm:px-12 bg-slate-500" id="experience">
             <div className="flex items-center flex-col">
                 <h2 className="text-4xl mb-10 text-white">EXPERIENCE</h2>
                 <div className="flex justify-center items-center">

@@ -43,7 +43,7 @@ const Projects = () => {
     const portfolio2GithubLink = "https://github.com/YouX24/youx.github.io"
 
     return (
-        <div className="flex justify-center items-center min-h-screen px-6 py-12 sm:px-12">
+        <div className="flex justify-center items-center min-h-screen px-6 py-12 sm:px-12" id="projects">
             <div className="flex justify-center items-center flex-col">
                 <h2 className="text-4xl mb-10">PROJECTS</h2>
                 <div className="flex justify-center items-center flex-wrap">

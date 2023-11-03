@@ -3,7 +3,7 @@ import Courses from './Courses'
 
 const Education = () => {
     return (
-        <div className="flex justify-center min-h-screen bg-slate-600 px-6 py-12 sm:px-12">
+        <div className="flex justify-center min-h-screen bg-slate-600 px-6 py-12 sm:px-12" id="education">
             <div className="flex justify-center items-center flex-col">
                 <h2 className="text-4xl text-white mb-10">EDUCATION</h2>
                 <div className="flex justify-center items-center">
