@@ -5,6 +5,7 @@ import sortingAlgoIcon from '../assets/sorting-algo-icon.svg'
 import steadyAidIcon from '../assets/steady-aid-icon.svg'
 import smartCityIcon from '../assets/smart-city-icon.svg'
 import portfolio1Icon from '../assets/portfolio1-icon.svg'
+import portfolio2Icon from '../assets/portfolio2-icon.svg'
 import Card from "../components/Card"
 
 const Projects = () => {
@@ -53,8 +54,8 @@ const Projects = () => {
                     <Card projectIcon={sortingAlgoIcon} projectTitle="Sorting Algorithm Visualizer" projectDescription={sortAlgoDesc} projectTechstack={sortAlgoTech} projectLink={sortingAlgoProjectLink} githubLink={sortingAlgoGithubLink} bgColor="bg-blue-200"/>
                     <Card projectIcon={steadyAidIcon} projectTitle="Steady Aid" projectDescription={steadyAidDesc} projectTechstack={steadyAidTech} githubLink={steadyAidGithubLink} bgColor="bg-red-200"/>
                     <Card projectIcon={smartCityIcon} projectTitle="Smart City" projectDescription={smartCityDesc} projectTechstack={smartCityTech} githubLink={smartCityGithubLink} bgColor="bg-indigo-200"/>
-                    <Card projectIcon={portfolio1Icon} projectTitle="Portfolio v1" projectDescription={portfolio1Desc} projectTechstack={portfolio1Tech} projectLink={porfoliov1ProjectLink} githubLink={porfoliov1GithubLink} bgColor="bg-amber-100"/>
-                    <Card projectIcon={portfolio1Icon} projectTitle="Portfolio v1" projectDescription={portfolio2Desc} projectTechstack={portfolio2Tech} githubLink={portfolio2GithubLink} bgColor="bg-amber-200"/>
+                    <Card projectIcon={portfolio1Icon} projectTitle="Portfolio v1" projectDescription={portfolio1Desc} projectTechstack={portfolio1Tech} projectLink={porfoliov1ProjectLink} githubLink={porfoliov1GithubLink} bgColor="bg-gray-300"/>
+                    <Card projectIcon={portfolio2Icon} projectTitle="Portfolio v2" projectDescription={portfolio2Desc} projectTechstack={portfolio2Tech} githubLink={portfolio2GithubLink} bgColor="bg-amber-100"/>
                 </div>
             </div>
         </div>

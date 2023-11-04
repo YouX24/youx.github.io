@@ -1,6 +1,8 @@
 import portrait from '../assets/portrait.png'
+import Typewriter from 'typewriter-effect';
+
 const Intro = () => {
-    let introArr = ["Hey there!", "Nice to meet you!", "My name is Yousae", "I'm a student at the University of Wisconsin-Eau Claire", "I'm studying Computer Science and Information Systems", "I'm interested in software engineering", "Thanks for visiting"]
+    let introArr = ["Hey there!", "Nice to meet you!", "My name is Yousae.", "I'm a student at UW-Eau Claire.", "I'm studying Computer Science and Information Systems.", "I'm interested in software engineering.", "Thanks for visiting!"]
 
     return (
         <div className="flex justify-center items-center sm:flex-row flex-col min-h-screen gap-5 sm:gap-12 px-6 py-12 sm:px-12">
@@ -12,7 +14,14 @@ const Intro = () => {
                     <a className="" href="https://github.com/YouX24" target="_blank" rel="noopener noreferrer"><i className="fa-brands fa-github text-2xl"></i></a>
                     <a className="" href="mailto:x.yousae@gmail.com"><i className="fa-solid fa-envelope text-2xl"></i></a>
                 </div>
-                <p className="text-2xl">{introArr[0]}</p>
+                <Typewriter
+                    options={{
+                        strings: introArr,
+                        autoStart: true,
+                        loop: true,
+                        delay: 50,
+                }}
+                />
             </div>
         </div>
     )
