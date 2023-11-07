@@ -21,9 +21,9 @@ const Experience = () => {
                                     <img src={optumLogo} alt="company" className="object-contain"/>
                                 </div>}
                         >
-                            <h3 className="vertical-timeline-element-title text-lg">Software Engineer Intern</h3>
-                            <h4 className="vertical-timeline-element-subtitle">Optum</h4>
-                            <ul className="list-[circle] mt-5 ml-5 space-y-2">
+                            <h3 className="vertical-timeline-element-title text-base sm:text-lg">Software Engineer Intern</h3>
+                            <h4 className="vertical-timeline-element-subtitle text-sm sm:text-base">Optum</h4>
+                            <ul className="list-[circle] mt-5 ml-5 space-y-2 text-sm sm:text-base">
                                 <li>Reduced manual labor and optimized workflow efficiency by developing a full-stack file validation application to automate file validation and duplicate checks.</li>
                                 <li>Seamlessly detect errors in files consisting of over 1600 values, by implementing an efficient algorithm to parse extensive files to find errors.</li>
                                 <li>Elevated backend API code quality, achieving over 84% code coverage and minimizing production issues through writing comprehensive unit tests.</li>
@@ -41,9 +41,9 @@ const Experience = () => {
                                     <img src={uwecLogo} alt="company"/>
                                 </div>}
                         >
-                            <h3 className="vertical-timeline-element-title text-lg">Computer Science Administrator</h3>
-                            <h4 className="vertical-timeline-element-subtitle">Univerity of Wisconsin-Eau Claire - Learning & Technology Services</h4>
-                            <ul className="list-[circle] mt-5 ml-5 space-y-2">
+                            <h3 className="vertical-timeline-element-title text-base sm:text-lg">Computer Science Administrator</h3>
+                            <h4 className="vertical-timeline-element-subtitle text-sm sm:text-base">Univerity of Wisconsin-Eau Claire - Learning & Technology Services</h4>
+                            <ul className="list-[circle] mt-5 ml-5 space-y-2 text-sm sm:text-base">
                                 <li>Ensured seamless server access for students and faculty, by managing and updating University CentOS and web servers.</li>
                                 <li>Facilitated problem-solving for both faculty and students, by providing timely software support.</li>
                                 <li>Honed user support abilities and explored innovative technologies for potential integration in CS courses.</li>

@@ -14,13 +14,13 @@ const Card = (props) => {
                 <br/>
                 <div className="flex gap-5">
                     {props.projectLink != undefined &&
-                        <a href={props.projectLink} target="_blank" rel="noopener noreferrer" className="text-2xl">
+                        <a href={props.projectLink} target="_blank" rel="noopener noreferrer" className="text-2xl hover:text-[#990000]">
                             <button><i className="fa-solid fa-window-maximize"></i></button>
                         </a>
                     }
                     {
                         props.githubLink != undefined &&
-                        <a href={props.githubLink} target="_blank" rel="noopener noreferrer" className="text-2xl">
+                        <a href={props.githubLink} target="_blank" rel="noopener noreferrer" className="text-2xl hover:text-[#990000]">
                             <button><i className="fa-brands fa-github"></i></button>
                         </a>
                     }

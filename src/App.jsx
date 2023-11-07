@@ -9,11 +9,15 @@ function App() {
 
   return (
     <>
-      <NavBar/>
-      <Introduction/>
-      <Experience/>
-      <Education/>
-      <Projects/>
+      <header>
+        <NavBar/>
+      </header>
+      <main>
+        <Introduction/>
+        <Experience/>
+        <Education/>
+        <Projects/>
+      </main>
       <Footer/>
     </>
   )
