@@ -9,6 +9,10 @@ const NavBar = () => {
         setNavShow(!navShow)
     }
 
+    const hideNav = () => {
+        setNavShow(false)
+    }
+
     return (
         <nav className='flex p-2 justify-between w-full absolute'>
             <a href="" className='flex items-center gap-4'>
@@ -20,13 +24,15 @@ const NavBar = () => {
                     <a href="#education">EDUCATION</a>
                     <a href="#projects">PROJECTS</a>
                 </div>
-                <i className="fa-solid fa-bars text-2xl sm:hidden" onClick={showNav}></i>
+                <i className="fa-solid fa-bars text-2xl sm:hidden fixed top-2 right-2 z-20 cursor-pointer" onClick={showNav}></i>
+                
+                {/* small screen */}
                 {
                     navShow &&
-                    <div className='flex items-center flex-col gap-7 absolute top-12 right-2 sm:hidden'>
-                        <a href="#experience">EXPERIENCE</a>
-                        <a href="#education">EDUCATION</a>
-                        <a href="#projects">PROJECTS</a>
+                    <div className='flex items-center flex-col gap-7 top-0 right-0 sm:hidden bg-red-500 w-52 h-screen fixed z-10'>
+                        <a href="#experience" onClick={hideNav} className="mt-14">EXPERIENCE</a>
+                        <a href="#education" onClick={hideNav}>EDUCATION</a>
+                        <a href="#projects" onClick={hideNav}>PROJECTS</a>
                     </div>
                 }
             </div>
