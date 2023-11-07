@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import yxLogo from '../assets/yx-Logo.svg'
+import yxLogo from '../assets/yx-logo.svg'
 
 const NavBar = () => {
 
