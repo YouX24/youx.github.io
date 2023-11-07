@@ -4,7 +4,7 @@ const Courses = () => {
         <div className="flex flex-col flex-start text-white">
             <p className="my-6 font-bold text-sm sm:text-base">Relevant Coursework:</p>
             <p className="my-3 text-sm sm:text-base">Computer Science</p>
-            <ul className="list-[circle] list-inside pl-4 text-sm sm:text-base">
+            <ul className="list-[circle] pl-8 text-sm sm:text-base">
                 <li>Advanced Programming and Data Structures (CS 245)</li>
                 <li>Computer Systems (CS 252)</li>
                 <li>Database Systems (CS 260)</li>
@@ -20,7 +20,7 @@ const Courses = () => {
                 <li>Software Engineering II (CS 485)</li>
             </ul>
             <p className="my-3 text-sm sm:text-base">Information Systems</p>
-            <ul className="list-[circle] list-[circle] list-inside pl-4 text-sm sm:text-base">
+            <ul className="list-[circle] pl-8 text-sm sm:text-base">
                 <li>Information Systems in Business (IS 240)</li>
                 <li>Fundamentals of Business Programming (IS 304)</li>
                 <li>Introduction to Business Analytics (IS 307)</li>
