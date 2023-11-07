@@ -12,7 +12,7 @@ const Intro = () => {
                 <div className='flex gap-5'>
                     <a href="https://www.linkedin.com/in/yousaexiong/" target="_blank" rel="noopener noreferrer"><i className="fa-brands fa-linkedin text-2xl hover:text-[#990000]"></i></a>
                     <a href="https://github.com/YouX24" target="_blank" rel="noopener noreferrer"><i className="fa-brands fa-github text-2xl hover:text-[#990000]"></i></a>
-                    <a href="https://drive.google.com/file/d/1F3vTabHJqo1LuyZACfhEv8uuo05fyOaZ/view?usp=sharing" target="_blank" rel="noopener noreferrer"><i className="fa-solid fa-file text-2xl hover:text-[#990000]"></i></a>
+                    <a href="https://drive.google.com/file/d/1UH9fWNfKDQ7j_7_OtePYYfWRDplja8LI/view?usp=sharing" target="_blank" rel="noopener noreferrer"><i className="fa-solid fa-file text-2xl hover:text-[#990000]"></i></a>
                     <a href="mailto:x.yousae@gmail.com"><i className="fa-solid fa-envelope text-2xl hover:text-[#990000]"></i></a>
                 </div>
                 <Typewriter
